@@ -99,6 +99,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
     compileOnly("tschipp.carryon:carryon-neoforge-${minecraft_version}:${carryon_version}")
+    // runtimeOnly("tschipp.carryon:carryon-neoforge-${minecraft_version}:${carryon_version}")
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
